@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #game-container {
+    position: relative;
+  }
+  
+  #hair-container {
+    display: grid;
+    grid-template-columns: repeat(20, 1cm);
+    grid-template-rows: repeat(10, 1cm);
+  }
+  
+  .hair-strand {
+    width: 3cm;
+    height: 0.5cm;
+    background-color: #964B00;
+    border: 1px solid #333;
+  }
+  
+  #shaver {
+    position: absolute;
+    width: 6cm;
+    height: 3cm;
+    background-color: silver;
+    border: 2px solid #333;
+    cursor: grab; /* Add grab cursor for better user experience */
+  }
+  
+  
